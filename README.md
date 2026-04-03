@@ -32,7 +32,7 @@ Poppings and Roboto are simple yet well structured that doesnt look too fancy or
 ![screenshot4]( ss4.png )
 ![screenshot5]( ss5.png )
 ![screenshot6]( darkmode-wcag.png )
-![screenshot7]( ss7.png )
+![screenshot7]( ss6.png )
 
 
 
