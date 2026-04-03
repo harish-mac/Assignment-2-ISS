@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> About-me </title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+
+    <body>
+
+
+        <header>
+            <nav class="headerlist">
+                <ul>
+                    <li> 
+                        <a href="../html/index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="../html/about.html">About Me </a>
+                    </li>
+                    <li>
+                        <a href="../html/projects.html">Projects </a>
+                    </li>
+                    <li>
+                        <a href="../html/contact.html">Contact </a>
+                    </li>
+                    
+                </ul>
+                <button id="switch" onclick="switch_theme()"> Switch Theme </button>
+            </nav>
+        </header>
+
+    <main>
+    <h1>My Projects</h1>
+
+    <nav class="filterbuttons">
+        <button class="filter" data-tags="all">All</button>
+        <button class="filter" data-tags="c-cpp">C/C++</button>
+        <button class="filter" data-tags="bash">Bash</button>
+        <button class="filter" data-tags="software">Software</button>
+    </nav>
+
+    
+    <div class="projectdesc" data-tags="software">
+    <h2>The Polyglot Harvester</h2>
+        <p class="projectdesc" data-tags="software">
+           I built a full-stack, real-time multiplayer web application integrated with a biometric authentication gateway.  The project spans five core areas of software systems: Autonomous data harvesting (web scraping),Polyglot database persistence (relational and non-relational), Backend API routing, Real-time bidirectional networking via WebSockets, Game state synchronisation<br><br>
+            <strong>Tradeoffs:</strong> I chose a simple intuitve working code than an industrial-grade solution, to ensure I could complete the project in a reasonable timeframe. <br><br>
+            <strong>Reflections:</strong> If I did this again, I'd implement a more efficient solutiion with a more interactive UI.<br><br>
+
+            <a class="projectlink" href="https://github.com/harish-mac/software-design-funadementals" target="_blank"> <strong> GitHub Repo </strong></a>
+    </p>
+    </div>
+
+    <div class="projectdesc" data-tags="c-cpp">
+        <h2>Twixt Game Engine</h2>
+        <p >
+            Built using C, this project focused on code-modularity and logic implementation I wanted to build effective and efficient algorithms in a low-level environment. <br><br>
+            <strong>Tradeoffs:</strong> I built the UI with a simple ASCII interface to focus on game mechanics, but it made the game less accessible and appealing. <br><br>
+            <strong>Reflections:</strong> I wish to build and implement the bridge mechanics in a more intuitive way, as the current implementation is not very user-friendly.<br><br>
+            
+            <a class="projectlink" href="https://github.com/harish-mac/twixt-game-engine " target="_blank"> <strong>GitHub Repo </strong></a>
+        </p>
+    </div>
+
+
+    <div class="projectdesc" data-tags="bash">
+    <h2>Smart Backup (Bash)</h2>
+        <p >
+             This is a simple backup tool that uses bash scripting to automate the process of backing up files and directories. It allows users to specify source and destination paths, and it can be scheduled to run at regular intervals using cron jobs. The script includes features such as logging and error handling to ensure that backups are performed reliably.
+             <br><br>
+            This is a robust backup tool that uses bash. Hence it's very close to the OS and can be integrated easily for file syncing and logging.<br><br>
+            <strong>Tradeoffs:</strong> I used a very simple and straightforward approach to ensure reliability, lacks advanced features like compression.<br><br>
+            <strong>Reflections:</strong> I would like to learn and implement compression to make it faster.
+
+            <a class="projectlink" href="https://github.com/harish-mac/Smart-Backup-SSH" target="_blank"> <strong>GitHub Repo </strong></a>
+    </p>
+    </div>
+    </main>
+
+        <footer>
+            © 2026 Harish Manickam. All rights reserved.
+        </footer>
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>
